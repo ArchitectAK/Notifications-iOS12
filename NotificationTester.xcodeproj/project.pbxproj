@@ -22,6 +22,7 @@
 		6A8F1B68212233ED0012C979 /* startup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A8F1B67212233ED0012C979 /* startup.jpg */; };
 		6A8F1B6B21224F740012C979 /* heart-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A8F1B6921224F740012C979 /* heart-outline.png */; };
 		6A8F1B6C21224F740012C979 /* heart-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A8F1B6A21224F740012C979 /* heart-filled.png */; };
+		EF5EFAB621411EEF00AACE0A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EF5EFAB521411EEF00AACE0A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		6A8F1B67212233ED0012C979 /* startup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = startup.jpg; sourceTree = "<group>"; };
 		6A8F1B6921224F740012C979 /* heart-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-outline.png"; sourceTree = "<group>"; };
 		6A8F1B6A21224F740012C979 /* heart-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-filled.png"; sourceTree = "<group>"; };
+		EF5EFAB521411EEF00AACE0A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		6A8F1B64212233BD0012C979 /* Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF5EFAB521411EEF00AACE0A /* README.md */,
 				6A8F1B6A21224F740012C979 /* heart-filled.png */,
 				6A8F1B6921224F740012C979 /* heart-outline.png */,
 				6A8F1B67212233ED0012C979 /* startup.jpg */,
@@ -244,6 +247,7 @@
 				6A8F1B6C21224F740012C979 /* heart-filled.png in Resources */,
 				6A8F1B2E2120C3DA0012C979 /* LaunchScreen.storyboard in Resources */,
 				6A8F1B6B21224F740012C979 /* heart-outline.png in Resources */,
+				EF5EFAB621411EEF00AACE0A /* README.md in Resources */,
 				6A8F1B68212233ED0012C979 /* startup.jpg in Resources */,
 				6A8F1B2B2120C3DA0012C979 /* Assets.xcassets in Resources */,
 				6A8F1B292120C3D80012C979 /* Main.storyboard in Resources */,
