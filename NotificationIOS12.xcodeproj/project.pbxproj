@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -51,7 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6A8F1B202120C3D80012C979 /* NotificationTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8F1B202120C3D80012C979 /* NotificationIOS12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationIOS12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8F1B232120C3D80012C979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A8F1B252120C3D80012C979 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A8F1B282120C3D80012C979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		6A8F1B212120C3D80012C979 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A8F1B202120C3D80012C979 /* NotificationTester.app */,
+				6A8F1B202120C3D80012C979 /* NotificationIOS12.app */,
 				6A8F1B392120CBCF0012C979 /* NotificationContentExt.appex */,
 			);
 			name = Products;
@@ -164,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6A8F1B1F2120C3D80012C979 /* NotificationTester */ = {
+		6A8F1B1F2120C3D80012C979 /* NotificationIOS12 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A8F1B322120C3DA0012C979 /* Build configuration list for PBXNativeTarget "NotificationTester" */;
+			buildConfigurationList = 6A8F1B322120C3DA0012C979 /* Build configuration list for PBXNativeTarget "NotificationIOS12" */;
 			buildPhases = (
 				6A8F1B1C2120C3D80012C979 /* Sources */,
 				6A8F1B1D2120C3D80012C979 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				6A8F1B472120CBCF0012C979 /* PBXTargetDependency */,
 			);
-			name = NotificationTester;
+			name = NotificationIOS12;
 			productName = NotificationTester;
-			productReference = 6A8F1B202120C3D80012C979 /* NotificationTester.app */;
+			productReference = 6A8F1B202120C3D80012C979 /* NotificationIOS12.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6A8F1B382120CBCF0012C979 /* NotificationContentExt */ = {
@@ -223,8 +223,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 6A8F1B1B2120C3D80012C979 /* Build configuration list for PBXProject "NotificationTester" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 6A8F1B1B2120C3D80012C979 /* Build configuration list for PBXProject "NotificationIOS12" */;
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -236,7 +236,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A8F1B1F2120C3D80012C979 /* NotificationTester */,
+				6A8F1B1F2120C3D80012C979 /* NotificationIOS12 */,
 				6A8F1B382120CBCF0012C979 /* NotificationContentExt */,
 			);
 		};
@@ -451,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26ZBAJ9N6K;
 				INFOPLIST_FILE = NotificationTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26ZBAJ9N6K;
 				INFOPLIST_FILE = NotificationTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,14 +488,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3A54GEJN3V;
+				DEVELOPMENT_TEAM = 26ZBAJ9N6K;
 				INFOPLIST_FILE = NotificationContentExt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Kaya-Thomas.NotificationTester.NotificationContentExt";
+				PRODUCT_BUNDLE_IDENTIFIER = Cogitator.NotificationTester.NotificationContentExt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -505,14 +507,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3A54GEJN3V;
+				DEVELOPMENT_TEAM = 26ZBAJ9N6K;
 				INFOPLIST_FILE = NotificationContentExt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Kaya-Thomas.NotificationTester.NotificationContentExt";
+				PRODUCT_BUNDLE_IDENTIFIER = Cogitator.NotificationTester.NotificationContentExt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -523,7 +525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6A8F1B1B2120C3D80012C979 /* Build configuration list for PBXProject "NotificationTester" */ = {
+		6A8F1B1B2120C3D80012C979 /* Build configuration list for PBXProject "NotificationIOS12" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A8F1B302120C3DA0012C979 /* Debug */,
@@ -532,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A8F1B322120C3DA0012C979 /* Build configuration list for PBXNativeTarget "NotificationTester" */ = {
+		6A8F1B322120C3DA0012C979 /* Build configuration list for PBXNativeTarget "NotificationIOS12" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A8F1B332120C3DA0012C979 /* Debug */,
