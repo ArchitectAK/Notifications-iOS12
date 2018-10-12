@@ -28,12 +28,12 @@ class ViewController: UIViewController {
         stackView?.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         stackView?.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
 
-        podcastName = "StartUp"
+        podcastName = "Cogitator"
 
         podcastNotificationButton = UIButton(type: .roundedRect)
         podcastNotificationButton.backgroundColor = UIColor.black
         podcastNotificationButton.setTitleColor(.white, for: .normal)
-        podcastNotificationButton.setTitle("Send podcast notification", for: .normal)
+        podcastNotificationButton.setTitle("Send dance notification", for: .normal)
         podcastNotificationButton.addTarget(self, action: #selector(sendPodcastNotification(sender:)), for: .touchUpInside)
 
         stackView.addArrangedSubview(podcastNotificationButton)
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         content.categoryIdentifier = NotificationCategoryType.podcast.rawValue
 
 
-        guard let pathUrlForPodcastImg = Bundle.main.url(forResource: "startup", withExtension: "jpg") else { return }
+        guard let pathUrlForPodcastImg = Bundle.main.url(forResource: "startup", withExtension: "png") else { return }
         let imgAttachment = try! UNNotificationAttachment(identifier: "image", url: pathUrlForPodcastImg, options: nil)
 
         guard let pathUrlForButtonNormal = Bundle.main.url(forResource: "heart-outline", withExtension: "png") else { return }

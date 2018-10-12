@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         let playAction = UNNotificationAction(identifier: "play-action", title: "Play", options: [])
         let queueAction = UNNotificationAction(identifier: "queue-action", title: "Queue Next", options: [])
 
-        let podcastCategory = UNNotificationCategory(identifier: "podcast", actions: [playAction, queueAction], intentIdentifiers: [], hiddenPreviewsBodyPlaceholder: hiddenPreviewsPlaceholder, categorySummaryFormat: summaryFormat, options: [])
+        let podcastCategory = UNNotificationCategory(identifier: "dance", actions: [playAction, queueAction], intentIdentifiers: [], hiddenPreviewsBodyPlaceholder: hiddenPreviewsPlaceholder, categorySummaryFormat: summaryFormat, options: [])
 
         UNUserNotificationCenter.current().setNotificationCategories([podcastCategory])
 
